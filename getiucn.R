@@ -18,7 +18,7 @@ library(rredlist)
 library(tidyverse)
 
 specieslist <- read_excel("redlist24424.xlsx")
-Sys.setenv(IUCN_KEY = "738ec05f9a360cb2df71d013e7910017a8e9c28f120bf864bbb4f38b652914db")
+Sys.setenv(IUCN_KEY = "inputkey")
 apikey <- Sys.getenv("IUCN_KEY")
 
 roughresults <- specieslist %>%
